@@ -14,20 +14,7 @@
     </head>
     <body>
         <div class="overlay"></div>
-        <nav>
-            <div class="nav__logo">Trave<span>link</span></div>
-            <ul class="nav__links">
-                <li class="link"><a href="#">Home</a></li>
-                <li class="link"><a href="#">About</a></li>
-                <li class="link"><a href="#">My booking</a></li>
-                <li class="link"><a href="#">Transaction History</a></li>
-                <li class="link"><a href="#">Favorite Hotels</a></li>
-            </ul>
-            <div class="btns">
-                <button href ="#" class="btn loginBtn">Login</button>
-                <button href ="#" class="btn">Register</button>
-            </div>
-        </nav>
+        <%@include file="../../header.jsp" %>
         <header class="section__container header__container">
             <h1 class="section__header">Find And Book<br />A Great Experience</h1>
             <img src="../img_Home/header.jpg" alt="header" />

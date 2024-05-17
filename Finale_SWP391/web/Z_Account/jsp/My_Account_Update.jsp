@@ -64,11 +64,11 @@
             }
             #logoutConfirm button a{
                 font-size: 17px;
-                user-select: none; 
+                user-select: none;
                 color: rgb(1,148,243);
                 text-decoration: none;
             }
-           
+
             #logoutConfirm.active {
                 bottom: 50%;
                 transform: translate(-50%, 50%);
@@ -78,7 +78,7 @@
         <!-- Dùng để đăng xuất-->
     </head>
     <body>
-
+        <%@include file="../../header.jsp" %>
         <!-- Dùng để đăng xuất-->
         <div id="overlay"></div>
         <div id="logoutConfirm">

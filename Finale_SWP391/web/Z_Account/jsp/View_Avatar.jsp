@@ -103,7 +103,7 @@
         <!-- Dùng để đăng xuất-->
     </head>
     <body>
-
+        <%@include file="../../header.jsp" %>
         <!-- Dùng để đăng xuất-->
         <div id="overlay"></div>
         <div id="logoutConfirm">
